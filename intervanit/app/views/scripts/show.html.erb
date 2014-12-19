@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @script.title %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @script.email %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @script.author %>
+</p>
+
+<p>
+  <strong>Server:</strong>
+  <%= @script.server %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @script.location %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @script.description %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @script.code %>
+</p>
+
+<%= link_to 'Edit', edit_script_path(@script) %> |
+<%= link_to 'Back', scripts_path %>
